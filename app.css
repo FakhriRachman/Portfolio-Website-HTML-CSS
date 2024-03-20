@@ -1,0 +1,313 @@
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+	height: auto;
+	width: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #faf0e6;
+}
+
+header.navbar-container {
+	width: 100%;
+	max-width: 1200px;
+	padding-block: 1rem;
+	margin-inline: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 9999;
+	position: sticky;
+	top: 0;
+}
+
+header.navbar-container .logo:hover {
+	cursor: default;
+}
+
+header.navbar-container .logo div {
+	display: flex;
+	font-size: xx-large;
+	color: #352f44;
+	padding: 8px;
+}
+
+header.navbar-container .logo img {
+	width: 50px;
+	margin-right: 20px;
+	order: -1;
+	border-radius: 80%;
+}
+
+header.navbar-container .nav-container {
+	margin-left: 300px;
+}
+
+header.navbar-container .nav-list ul {
+	padding-left: 0;
+	display: flex;
+	justify-content: center;
+	gap: 2rem 1rem;
+}
+
+header.navbar-container .nav-list li {
+	list-style-type: none;
+	border: 2px solid;
+	border-radius: 0 12px 12px 12px;
+	padding: 9px;
+	border-color: #5c5470;
+}
+
+header.navbar-container .nav-list li a {
+	padding: 0.5rem 1.5rem;
+	border-radius: 999px;
+	text-decoration: none;
+	font-size: 1.05rem;
+	font-weight: 500;
+	color: #5c5470;
+	transition: all 0.2s ease-in-out;
+}
+
+header.navbar-container .nav-list li:hover a {
+	background-color: #5c5470;
+	color: #faf0e6;
+	border-radius: 0 12px 12px 12px;
+	text-decoration: underline;
+	text-underline-offset: 0.5rem;
+}
+
+main .hero-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 225px;
+	text-align: center;
+	margin-bottom: 310px;
+}
+
+main .hero-container p {
+	width: 350px;
+}
+
+main .hero-container .hero-image {
+	order: -1;
+	margin-right: 50px;
+}
+
+main .hero-container .hero-image img {
+	width: 600px;
+}
+
+main .project-container {
+	display: flex;
+	justify-content: center;
+}
+
+main .hero-container .hero-content .button-container {
+	text-align: center;
+}
+
+.btn {
+	font-weight: 600;
+	transition: all 300ms ease;
+	padding: 1rem;
+	width: 8rem;
+	border-radius: 999px;
+	border: #352f44 2px solid;
+	background-color: #faf0e6;
+	color: #5c5470;
+	cursor: pointer;
+	justify-content: center;
+}
+
+.btn:hover {
+	background-color: #5c5470;
+	color: #faf0e6;
+	text-decoration: underline;
+	text-underline-offset: 0.5rem;
+}
+
+main .hero-container .hero-content .social-container {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 20px;
+}
+
+main .hero-container .hero-content .social-container img {
+	width: 30px;
+}
+
+main .hero-container .hero-content .social-container img:hover {
+	border: transparent 1px solid;
+	cursor: pointer;
+}
+
+main .title {
+	text-align: center;
+	padding: 100px;
+	font-size: xx-large;
+}
+
+main .project-container {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 200px;
+}
+
+main .project-container .content-container {
+	display: flex;
+	gap: 2rem;
+	padding: 15px;
+}
+
+main .project-container .content-project {
+	border: #352f44 2px solid;
+	border-radius: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	background-color: #352f44;
+	text-align: center;
+}
+
+main .project-container .content-project .project-image img {
+	max-width: 400px;
+	border-radius: 50px;
+}
+
+main .project-container .content-project h2 {
+	font-size: 25px;
+	color: #faf0e6;
+}
+
+main .project-container .content-project .btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+main .project-container .content-project .btn-container .btn {
+	margin: 10px;
+	padding: auto;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main .contact-container {
+	display: flex;
+	justify-content: center;
+	border-radius: 2rem;
+	border: 0.5rem solid;
+	border-color: #352f44;
+	margin: 2rem auto;
+	padding: 0.5rem;
+	margin-bottom: 310px;
+}
+
+main .contact-container .contact-info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	margin: 1rem;
+}
+
+main .contact-container .contact-info img {
+	height: 65px;
+	cursor: default;
+}
+
+main .contact-container .contact-info p {
+	font-size: larger;
+}
+
+main .contact-container .contact-info a {
+	text-decoration: none;
+	font-size: 1.05rem;
+	font-weight: 500;
+	color: #5c5470;
+	transition: all 0.2s ease-in-out;
+}
+
+main .contact-container .contact-info a:hover {
+	text-decoration: underline;
+	text-underline-offset: 0.5rem;
+}
+
+main aside .aside-container .aside-image img {
+	width: 100px;
+	border: #352f44 1px solid;
+}
+
+main aside .aside-container {
+	width: 200px;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	font-size: 13px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-right: 25px;
+}
+
+footer .icon-heart img {
+	width: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+	header.navbar-container {
+		flex-direction: column;
+		display: flex;
+	}
+
+	header.navbar-container .nav-container {
+		margin-left: 0px;
+	}
+
+	main .hero-container {
+		flex-direction: column;
+		display: flex;
+	}
+
+	main .hero-container .hero-image {
+		margin-top: -150px;
+	}
+
+	main .hero-container .hero-image img {
+		width: 400px;
+	}
+
+	main .hero-container .hero-content .content h1 {
+		margin-top: 70px;
+	}
+
+	main .hero-container .hero-content .content p {
+		width: auto;
+	}
+
+	#project {
+		padding-top: 75px;
+	}
+
+	main .project-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer {
+		justify-content: space-around;
+		font-size: 13px;
+	}
+}
